@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Tv-project</title>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="navbar-brand" src="./img/logo.png" href="#" width="100px">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" action="./searchPage.html" method="get">
+                <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                <button class="btn" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+    <!-- <div class="se">
+        <select id="selectEp" name="sample" onchange="location = this.value;">
+            <a href="#11">Test</a>
+           
+        </select> -->
+    <div class=" dropdown" id="selectEp">
+        <button onclick="myFunction()" class="dropbtn">Select episodes</button>
+        <div id="myDropdown" class="dropdown-content">
+
+        </div>
+    </div>
+    </div>
+    <div class="episodes" id="myDIV"></div>
+
+
+
+
+
+
+
+    <script src="./tv100.js"></script>
+
+
+
+</body>
+
+</html>
